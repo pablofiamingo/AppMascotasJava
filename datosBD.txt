@@ -1,0 +1,15 @@
+Servidor xampp
+
+Base de datos MySQL
+Nombre: peluqueria
+Usuario: pelu
+Contraseña: 12345
+localhost
+URL:http://localhost/phpmyadmin/index.php?route=/sql&db=peluqueria&table=perro&pos=0
+
+
+Nota: durante la compilación me apareció el siguiente error:
+
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+
+A pesar de esto, el alta en la BD funcionó perfectamente, por lo cual no investigué al respecto. Lo aclaro por si existe tal error durante la correción.
